@@ -20,3 +20,4 @@ C:\Users\begum\OneDrive\Masaüstü\Batu\KodlamaioOdevCrud\KodlamaioOdevCrud\bin\
 C:\Users\begum\OneDrive\Masaüstü\Batu\KodlamaioOdevCrud\KodlamaioOdevCrud\obj\Debug\net8.0\KodlamaioOdevCrud.csproj.CopyComplete
 C:\Users\begum\OneDrive\Masaüstü\Batu\KodlamaioOdevCrud\KodlamaioOdevCrud\bin\Debug\net8.0\DataAccess.dll
 C:\Users\begum\OneDrive\Masaüstü\Batu\KodlamaioOdevCrud\KodlamaioOdevCrud\bin\Debug\net8.0\DataAccess.pdb
+C:\Users\begum\OneDrive\Masaüstü\Batu\KodlamaioOdevCrud\KodlamaioOdevCrud\obj\Debug\net8.0\KodlamaioOdevCrud.sourcelink.json

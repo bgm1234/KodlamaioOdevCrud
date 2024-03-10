@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace DataAccess.Concrete
 {
-    public class EfCoreCategoryDal : ICategoryDal
+    public class EfCoreCategoryDal : IGenericDal<Category>
     {
         List<Category> categories;
 
@@ -51,7 +51,7 @@ namespace DataAccess.Concrete
             if (updatedCategory != null)
             {
                 updatedCategory.Name = entity.Name;
-                Console.WriteLine(updatedCategory.Name + "olarak text te güncellendi.");
+                Console.WriteLine(updatedCategory.Name );
             }
         }
 

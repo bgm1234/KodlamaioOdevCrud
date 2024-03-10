@@ -11,32 +11,32 @@ namespace Business.Concrete
 {
     public class CategoryManager : IGenericService<Category>
     {
-        private readonly ICategoryDal _categoryDal;
+        private readonly IGenericDal<Category> _genericDal;
 
 
-        public CategoryManager(ICategoryDal categoryDal)
+        public CategoryManager(IGenericDal<Category> genericDal)
         {
-            _categoryDal = categoryDal;
+            _genericDal = genericDal;
         }
 
         public void Add(Category entity)
         {
-            _categoryDal.Add(entity);
+            _genericDal.Add(entity);
         }
 
         public void Delete(Category entity)
         {
-            _categoryDal.Delete(entity);
+            _genericDal.Delete(entity);
         }
 
         public List<Category> GetAll()
         {
-          return _categoryDal.GetAll();
+          return _genericDal.GetAll();
         }
 
         public void Update(Category entity)
         {
-           _categoryDal.Update(entity);
+            _genericDal.Update(entity);
         }
     }
 }

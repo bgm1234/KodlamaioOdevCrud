@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("KodlamaioOdevCrud")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+220cbc3f427486543e94b2704829e838f2e39320")]
 [assembly: System.Reflection.AssemblyProductAttribute("KodlamaioOdevCrud")]
 [assembly: System.Reflection.AssemblyTitleAttribute("KodlamaioOdevCrud")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

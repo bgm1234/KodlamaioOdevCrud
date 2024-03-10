@@ -1,5 +1,7 @@
 ﻿using Business.Abstract;
+using DataAccess.Abstract;
 using Entities.Concrate;
+using Entities.Concrete;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -10,24 +12,30 @@ namespace Business.Concrete
 {
     public class InstructorManager : IGenericService<Instructor>
     {
+        private readonly IGenericDal<Instructor> _genericDal;
+
+        public InstructorManager(IGenericDal<Instructor> genericDal)
+        {
+            _genericDal = genericDal;
+        }
         public void Add(Instructor entity)
         {
-            throw new NotImplementedException();
+           _genericDal.Add(entity);
         }
 
         public void Delete(Instructor entity)
         {
-            throw new NotImplementedException();
+           _genericDal?.Delete(entity);
         }
 
         public List<Instructor> GetAll()
         {
-            throw new NotImplementedException();
+            return _genericDal.GetAll();
         }
 
         public void Update(Instructor entity)
         {
-            throw new NotImplementedException();
+            _genericDal.Update(entity);
         }
     }
 }

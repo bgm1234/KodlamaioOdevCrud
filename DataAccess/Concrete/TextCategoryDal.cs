@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace DataAccess.Concrete
 {
-    public class TextCategoryDal : ICategoryDal
+    public class TextCategoryDal : IGenericDal<Category>
     {
         List<Category> categories;
 
